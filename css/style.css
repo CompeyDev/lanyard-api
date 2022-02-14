@@ -6,6 +6,14 @@
     url("https://www.devcomp.tk/resources/dafont/daft_font-webfont.svg#filename") format("svg");
     }
 
+h1 {
+    font-size: -webkit-xxx-large;
+}
+
+span {
+    font-size: larger;
+}
+
 :root {
     --pink: #000000;
     --pink-translucent: rgba(0, 0, 0, 0);
@@ -27,8 +35,7 @@ html, body {
 
 body {
     font-family: sans-serif;
-    background-color:black;
-    background-image: url("https://raw.githubusercontent.com/TheAwesomeCoder05/TheAwesomeCoder05.github.io/main/img/raw.jpg")
+    background-color:#46409c;
   }
   video {
     width: 100vw;
@@ -63,7 +70,7 @@ li {
 .floating-card {
     position: relative;
     min-width: 30%;
-    padding: 2.5rem 4rem;
+    padding: 21.5rem 37rem;
     margin: 4rem;
     border-radius: 12px;
     box-shadow: var(--shadow);
