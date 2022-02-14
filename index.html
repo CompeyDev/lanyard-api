@@ -1,49 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <meta charset="UTF-8">
-        <meta name="theme-color" content="#800080">
-        <meta content='https://raw.githubusercontent.com/TheAwesomeCoder05/TheAwesomeCoder05.github.io/main/img/logo.png' property='og:image'>
-        <meta content="DevComp's Landing." property="og:title">
-        <meta content="Homepage." property="og:description">
         <script src="resources/jq.js"></script>
-        <title>DevComp - Homepage</title>
+        <title>DevComp's Discord Status</title>
         <link rel="preconnect" href="https://fonts.gstatic.com">
         <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap">
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css">
         <link rel="stylesheet" href="./css/style.css">
         
 
-        <script>
-        const SITE_NAME = document.title;
-        const TIME = 0.3 * 1000;
-
-        const yield = seconds => new Promise(_ => setTimeout(_, seconds));
-        async function init() {
-            await yield(TIME * 4);
-            for (let s = SITE_NAME.length; s >= 0; s--) {
-                let newTitle = SITE_NAME.substr(0, s);
-                if (s === 0) newTitle = "_";
-                    
-                document.title = newTitle;
-                await yield(TIME);
-            }
-            
-            await yield(TIME);
-            for (let s = 0; s <= SITE_NAME.length; s++) {
-                let newTitle = SITE_NAME.substr(0, s);
-                if (s === 0) newTitle = "_";
-                    
-                document.title = newTitle;
-                await yield(TIME);
-            }
-
-            init();
-        }
-
-            init();
-        </script>
+       
     </head>
 
     
@@ -58,38 +24,6 @@
                 <script src="resources/worker.js"></script>
                
                 </p>
-                <div class="links">
-                    <div class="social-icons">
-                        <a style="color:#ffffff" href="https://github.com/TheAwesomeCoder05">
-                            <i class="fab fa-github"></i>
-                            <span class="tooltip">GitHub</span>
-                        </a>
-                        <a style="color:#7289DA" href="https://devcomp.tk/discord">
-                            <i class="fab fa-discord"></i>
-                            <span class="tooltip">Discord Account</span>
-                        </a>
-                        <a style="color:#FF0000" href="https://www.youtube.com/channel/UCh9KkPjILEebJihTG_4s-Lg">
-                            <i class="fab fa-youtube"></i>
-                            <span class="tooltip">YouTube</span>
-                        </a>
-                        
-                        <a style="color:#FF4500" href="https://www.reddit.com/user/DevComp">
-                            <i class="fab fa-reddit"></i>
-                            <span class="tooltip">Reddit</span>
-                            
-                        <a style="color:#1DA1F2" href="https://twitter.com/DevComp_">
-                            <i class="fab fa-twitter"></i>
-                            <span class="tooltip">Twitter</span>   
-                        </a>
-                            
-                        <a style="color:#ffffff" href="https://steamcommunity.com/profiles/76561199205201132">
-                            <i class="fab fa-steam"></i>
-                            <span class="tooltip">Steam</span>
-                        </a>
-                        </a>
-                        </a>
-                    </div>
-                </div>
             </div>
         </div>
     </body>
